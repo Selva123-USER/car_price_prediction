@@ -214,12 +214,6 @@ print(df_correlation)
 
 
 
-#
-accuracy = r2_score(y_test,output)
-print("-----------accuracy_score----------------")
-print(accuracy)
-
-
 mse = mean_squared_error(y_test,output)
 print("mean_squared_error:\n",mse)
 # #
@@ -227,6 +221,7 @@ print("mean_squared_error:\n",mse)
 # #
 # #
 #
+
 
 
 
